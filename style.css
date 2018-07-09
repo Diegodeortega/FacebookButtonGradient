@@ -1,0 +1,55 @@
+button:hover{
+  cursor:pointer;
+}
+
+button{
+  background-color: #4d69bb;
+ width: 70px;
+ height: 30px;
+ text-align:center;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 150px;
+}
+.facebook {
+   background: linear-gradient (#3D56A1,#4D69BB);
+}
+
+.first{
+  border: 0;
+
+}
+
+.second{
+  border: 1px solid #C4C7CE;
+  border-radius: 5px;
+  color: #69707F;
+  background-color: white;
+  width:60px;
+  height: 30x;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+  font-weight: lighter;
+}
+
+a{
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+i{
+  color: white;
+}
+
+p{
+  font-family: Arial;
+  color:#69707F;
+}
